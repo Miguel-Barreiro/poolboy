@@ -10,7 +10,7 @@
          handle_event/3, handle_sync_event/4, handle_info/3, terminate/3,
          code_change/4]).
 
--define(TIMEOUT, 5000).
+-define(TIMEOUT, 3600000).
 
 -record(state, {
     supervisor :: pid(),
